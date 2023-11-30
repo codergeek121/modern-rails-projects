@@ -1,6 +1,6 @@
 # OpenAI TTS with Rails
 
-Read more about the project in the actual blogpost: http://localhost:1313/posts/using-the-openai-text-to-speech-api-with-rails/
+Read more about the project in the actual blogpost: https://www.modern-rails.com/posts/using-the-openai-text-to-speech-api-with-rails/
 
 ## Setup
 
