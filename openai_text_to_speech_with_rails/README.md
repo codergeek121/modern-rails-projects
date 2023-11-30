@@ -1,24 +1,18 @@
-# README
+# OpenAI TTS with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Read more about the project in the actual blogpost: http://localhost:1313/posts/using-the-openai-text-to-speech-api-with-rails/
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+1. Run `bin/setup`.
+2. Run `rails credentials:edit --environment development` and provide your own OpenAI API token `open_ai_access_token: <yourtokengoeshere>`
+3. Run `rails server`
+4. Visit [/articles](localhost:3000/articles)
 
-* System dependencies
+Have fun!
 
-* Configuration
+## Tests
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Run `bin/setup`.
+2. Run `rails credentials:edit --environment test` and add `open_ai_access_token: test`
+3. Run `rails test`
