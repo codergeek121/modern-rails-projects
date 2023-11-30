@@ -1,0 +1,9 @@
+<div id="<%= dom_id article %>">
+  <%= simple_format article.content %>
+
+  <% if article.audio.attached? %>
+    <%= audio_tag article.audio, controls: true %>
+  <% else %>
+    <p>Audio is generating...</p>
+  <% end %>
+</div>
